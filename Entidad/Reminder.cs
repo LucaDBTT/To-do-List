@@ -9,6 +9,7 @@ namespace Entidad
     public class Reminder
     {
         private int Id_reminder { get; set; }
+        private string Descripcion { get; set; }
         private DateTime FechaHora { get; set; }
     }
 }
