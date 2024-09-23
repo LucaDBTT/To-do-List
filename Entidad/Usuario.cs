@@ -14,11 +14,11 @@ namespace Entidad
             administrador = 1,
             vendedor = 2
         }
-        private string id_usuario {  get; set; }
-        private string NombreUsuario {  get; set; }
-        private string Password { get; set; }
+        public string id_usuario {  get; set; }
+        public string NombreUsuario {  get; set; }
+        public string Password { get; set; }
         public TipoUsuarios TipoUsuario { get; set; }
-        private bool Estado { get; set; }
+        public bool Estado { get; set; }
 
         public override string ToString()
         {

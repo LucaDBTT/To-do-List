@@ -25,7 +25,7 @@ namespace Negocio
         public AccesoDatos()
         {
 
-            Conexion = new SqlConnection("server=DESKTOP-LRPR1H0; database=Base_Comercio_2024; integrated security=true; Max Pool Size=100;");
+            Conexion = new SqlConnection("server=DESKTOP-LRPR1H0; database=TODOLIST; integrated security=true; Max Pool Size=100;");
             Comando = new SqlCommand();
 
         }

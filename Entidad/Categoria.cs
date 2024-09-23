@@ -8,9 +8,9 @@ namespace Entidad
 {
     public class Categoria
     {
-        private int Id_cat { get; set; }
-        private string NombreCategoria { get; set; }
-        private string Descripcion { get; set; }
-        private bool Estado { get; set; }
+        public int Id_cat { get; set; }
+        public string NombreCategoria { get; set; }
+        public string Descripcion { get; set; }
+        public bool Estado { get; set; }
     }
 }

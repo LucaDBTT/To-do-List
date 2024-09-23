@@ -4,10 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To-do-List", "To-do-List\To-do-List.csproj", "{9AFBB214-D68A-4A8C-99E5-0A93054396B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87755673-67C8-4ADB-A849-EA74669FDFD1} = {87755673-67C8-4ADB-A849-EA74669FDFD1}
+		{8D9F4AEC-563C-47B4-B667-1FFEA29340BA} = {8D9F4AEC-563C-47B4-B667-1FFEA29340BA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidad", "Entidad\Entidad.csproj", "{8D9F4AEC-563C-47B4-B667-1FFEA29340BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{87755673-67C8-4ADB-A849-EA74669FDFD1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D9F4AEC-563C-47B4-B667-1FFEA29340BA} = {8D9F4AEC-563C-47B4-B667-1FFEA29340BA}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

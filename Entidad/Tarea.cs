@@ -8,16 +8,16 @@ namespace Entidad
 {
     public class Tarea
     {
-        private int Id_tarea { get; set; }
-        private Usuario Usuario { get; set; }
-        private string Descripcion { get; set; }
-        private DateTime FechaCreacion { get; set; }
-        private DateTime FechaVencimiento { get; set; }
-        private bool EstaCompletada { get; set; }
-        private string Prioridad { get; set; } // Alta, Media, Baja
-        private Tag Etiqueta { get; set; } 
-        private Categoria Categoria { get; set; }
-        private Reminder Reminder { get; set; }
+        public int Id_tarea { get; set; }
+        public Usuario Usuario { get; set; }
+        public string Descripcion { get; set; }
+        public DateTime FechaCreacion { get; set; }
+        public DateTime FechaVencimiento { get; set; }
+        public bool EstaCompletada { get; set; }
+        public string Prioridad { get; set; } // Alta, Media, Baja
+        public Tag Etiqueta { get; set; } 
+        public Categoria Categoria { get; set; }
+        public Reminder Reminder { get; set; }
 
     }
 }

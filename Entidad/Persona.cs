@@ -9,12 +9,12 @@ namespace Entidad
 {
     public class Persona
     {
-        private int id_persona {get; set;}
-        private string Nombre { get; set;}
-        private string Apellido {  get; set;}
-        private string Dni { get; set;}
-        private DateTime FechaNacimiento {  get; set;}
-        private string Nacionalidad { get; set;}
+        public int id_persona {get; set;}
+        public string Nombre { get; set;}
+        public string Apellido {  get; set;}
+        public string Dni { get; set;}
+        public DateTime FechaNacimiento {  get; set;}
+        public string Nacionalidad { get; set;}
         public string Direccion { get; set; }
 
 

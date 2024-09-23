@@ -8,9 +8,9 @@ namespace Entidad
 {
     public class Tag
     {
-        private int id_tag {  get; set; }
-        private string Descripcion { get; set; }
-        private bool Estado { get; set; }
+        public int id_tag {  get; set; }
+        public string Descripcion { get; set; }
+        public bool Estado { get; set; }
 
 
     }
